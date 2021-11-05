@@ -1,14 +1,72 @@
+/* Eclipse */
+.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -50px;
+    left: 0;
+    background-color: #8B9E6E;
+    clip-path: circle(600px at 950px 0px);
+    z-index: -1;
+}
 /* navbar */
 .navbar{
-    background-color: white;
-    box-shadow: 0px 0px 8px 0px gray;
+    box-shadow: 0px 0px 15px 0px gray;
     height: 80px;
 }
 .navbar a{
     color: black;
 }
+.contact{
+  color: white;
+}
+span{
+    color: #8B9E6E;
+}
 /* hero section */
 .hero_section{
-    background-color: #97B8BA;
-    margin-top: 30px;
+    margin-top: 100px;
+    height: 100vh;
 }
+.btn{
+    background-color: #8B9E6E;
+    color: white;
+    text-transform: uppercase;
+    /* margin-top: 100px; */
+    border-radius: 15px;
+}
+/* About section */
+.about_section{
+    height: 150vh;
+}
+.progress-bar-wrap {
+    background: #fbeaf1;
+    margin: 10px;
+  }
+  i{
+   margin-left: 280px;
+  }
+.progress-bar1 {
+    width: 95%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #8B9E6E;
+  }
+  .progress-bar2{
+    width: 80%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #8B9E6E;
+  }
+  .progress-bar3{
+    width: 70%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #8B9E6E;
+  }
+  .progress-bar4{
+    width: 80%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #8B9E6E;
+  }
