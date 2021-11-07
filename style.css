@@ -106,6 +106,7 @@ span{
   /* services */
   .services_section{
      height: 70vh;
+     background-color: rgb(233, 224, 224);
   }
   .card{
     box-shadow: 2px 4px 5px gray;
