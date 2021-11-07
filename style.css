@@ -60,25 +60,21 @@ span{
    margin-left: 280px;
   }
 .progress-bar1 {
-    /* width: 95%; */
     height: 10px;
     transition: 0.9s;
     background-color: #EE5B2B;
   }
   .progress-bar2{
-    /* width: 80%; */
     height: 10px;
     transition: 0.9s;
     background-color: #EE5B2B;
   }
   .progress-bar3{
-    /* width: 70%; */
     height: 10px;
     transition: 0.9s;
     background-color: #EE5B2B;
   }
   .progress-bar4{
-    /* width: 80%; */
     height: 10px;
     transition: 0.9s;
     background-color: #EE5B2B;
@@ -106,4 +102,8 @@ span{
   }
   .info{
     margin-left: 50px;
+  }
+  /* services */
+  .services_section{
+     height: 70vh;
   }
