@@ -107,3 +107,6 @@ span{
   .services_section{
      height: 70vh;
   }
+  .card{
+    box-shadow: 2px 4px 5px gray;
+  }
