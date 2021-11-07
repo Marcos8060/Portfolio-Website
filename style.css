@@ -1,3 +1,4 @@
+
 /* Eclipse */
 .circle{
     position: absolute;
@@ -71,5 +72,6 @@ span{
     background-color: #EE5B2B;
   }
   li::marker{
-    background-color: #EE5B2B;
+    color: #EE5B2B;
+    font-size: 40px;
   }
