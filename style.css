@@ -32,12 +32,21 @@ span{
 .button{
   margin-top: 100px;
 }
+.button button{
+  margin: 5px;
+}
 .btn{
-    background-color: #EE5B2B;
-    color: white;
+    /* background-color: #EE5B2B; */
+    color: black;
+    border: 2px solid #EE5B2B;
     text-transform: uppercase;
     /* margin-top: 100px; */
     border-radius: 15px;
+}
+.btn:hover{
+  background-color: #EE5B2B;
+  color: white;
+  transition: 1s;
 }
 /* About section */
 .about_section{
@@ -74,9 +83,13 @@ span{
     transition: 0.9s;
     background-color: #EE5B2B;
   }
-  li::marker{
+  .list::marker{
     color: #EE5B2B;
     font-size: 40px;
+  }
+  li::marker{
+    color: #EE5B2B;
+    font-size: 20px;
   }
   b{
     margin-left: 50px;
