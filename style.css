@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body{
   background-color: white;
+}
+.logo{
+  font-family: "Dancing Script", cursive;
 }
 /* Eclipse */
 .circle{
