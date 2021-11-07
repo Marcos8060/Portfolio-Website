@@ -1,4 +1,6 @@
-
+body{
+  background-color: white;
+}
 /* Eclipse */
 .circle{
     position: absolute;
@@ -17,6 +19,7 @@
 }
 .navbar a{
     color: black;
+    /* text-transform: uppercase; */
 }
 .contact{
   color: white;
@@ -27,7 +30,6 @@ span{
 /* hero section */
 .hero_section{
     margin-top: 100px;
-    height: 100vh;
 }
 .button{
   margin-top: 100px;
@@ -36,28 +38,38 @@ span{
   margin: 5px;
 }
 .btn{
-    /* background-color: #EE5B2B; */
     color: black;
     border: 2px solid #EE5B2B;
     text-transform: uppercase;
-    /* margin-top: 100px; */
     border-radius: 15px;
 }
 .btn:hover{
   background-color: #EE5B2B;
   color: white;
-  transition: 1s;
+  transition: 1.5s;
 }
 /* About section */
 .about_section{
-    height: 150vh;
+    background-color: rgb(233, 224, 224);
 }
 .progress-bar-wrap {
     background: #fbeaf1;
     margin: 20px;
   }
-  i{
-   margin-left: 280px;
+  .first{
+   margin-left: 420px;
+  }
+  .second{
+    margin-left: 440px;
+  }
+  .third{
+    margin-left: 380px;
+  }
+  .fourth{
+    margin-left: 420px;
+  }
+  .fifth{
+    margin-left: 400px;
   }
 .progress-bar1 {
     height: 10px;
@@ -105,9 +117,41 @@ span{
   }
   /* services */
   .services_section{
-     height: 70vh;
-     background-color: rgb(233, 224, 224);
+     background-color: white;
   }
   .card{
-    box-shadow: 2px 4px 5px gray;
+    box-shadow: 4px 7px 8px gray;
+    border-radius: 10px;
+    height: 370px;
+    text-align: center;
+  }
+  .serve{
+    background-color: rgb(233, 224, 224);
+  }
+  /* projects section */
+  .projects_section{
+    background-color: rgb(233, 224, 224);
+  }
+  /* footer */
+  footer{
+  background-color: #EE5B2B;
+  height: 10vh;
+  }
+
+  /* media querry */
+  @media (max-width: 768px) {
+      .card{
+     margin-left: 100px;
+     margin-bottom: 15px;
+     }
+    .navbar-nav{
+      background-color: #EE5B2B;
+      color: white;
+    }
+    .navbar-toggler{
+      background-color: black;
+  }
+  .navbar-toggler-icon{
+    color: white;
+  }
   }
